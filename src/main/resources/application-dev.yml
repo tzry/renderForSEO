@@ -1,0 +1,22 @@
+selenium:
+  chrome:
+    url: http://localhost:4444/wd/hub
+logging:
+  level:
+    top.gerrytangn.r4seo: debug
+  file:
+    name: log/r4seo.log
+config:
+  driver:
+    num: 3
+#spring:
+#  redis:
+#    host: localhost
+#    port: 6379
+#    database: 2
+#    jedis:
+#      pool:
+#        max-active: 50
+#        max-idle: 50
+#        min-idle: 10
+#        max-wait: 50000ms

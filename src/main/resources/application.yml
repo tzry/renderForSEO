@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: cs64_3
+  cache:
+    ehcache:
+      config: classpath:ehcache.xml
+
+server:
+  port: 4000
+  compression:
+    enabled: true
+    min-response-size: 2KB

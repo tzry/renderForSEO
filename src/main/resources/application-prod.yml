@@ -1,0 +1,11 @@
+selenium:
+  chrome:
+    url: http://chrome:4444/wd/hub
+logging:
+  level:
+    top.gerrytangn.r4seo: error
+  file:
+    name: log/r4seo.log
+config:
+  driver:
+    num: 10

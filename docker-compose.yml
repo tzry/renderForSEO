@@ -1,0 +1,16 @@
+version: "3"
+services:
+  render:
+    container_name: render
+    build: .
+    ports:
+      - "4000:4000"
+    depends_on:
+      - chrome
+  chrome:
+    image: selenium/standalone-chrome:3.141.59-20200409
+    container_name: chrome
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "4444:4444"
