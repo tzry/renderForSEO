@@ -20,5 +20,5 @@ To improve the performance, the project will maintain a pool of driver sessions,
 You can configure the cache configuration for the pages. For the details, please refer to https://www.ehcache.org/generated/2.10.4/html/ehc-all/
 
 #Donations
-If you favor this project, please star the project. Your support is my best encouragement. You can also use the <a href="://paypal.me/tzry93">PayPal</a> link to donate to the author.
+If you favor this project, please star the project. Your support is my best encouragement. You can also use the PayPal link (https://paypal.me/tzry93) to donate to the author.
 
